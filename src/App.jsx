@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div>
-      <Header cartCount={cart.length} />
+      <Header cart={cart} cartCount={cart.length} />
       <Body addToCart={addToCart} />
       <Footer />
     </div>
